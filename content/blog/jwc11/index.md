@@ -1,6 +1,7 @@
 ---
 title: It was going to be a lonely trip back.
 date: '2019-04-09T22:12:03.284Z'
+description: Review JWC11 camp
 ---
 
 > การเดินทางขากลับคงจะเหงา
