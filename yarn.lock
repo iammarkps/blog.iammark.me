@@ -11045,6 +11045,11 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
+typeface-kanit@^0.0.72:
+  version "0.0.72"
+  resolved "https://registry.yarnpkg.com/typeface-kanit/-/typeface-kanit-0.0.72.tgz#bc8abc1cfce25f47e028be02447c7640a75586fa"
+  integrity sha512-qkdsMstXZeZRjoPvUTXmW6+1is5EnekarumnFngY+3BDlPAGQLGBvIGzV0U3xDGPQeO7G7FpdUBrZlKkwDJc3g==
+
 typeface-merriweather@0.0.72:
   version "0.0.72"
   resolved "https://registry.yarnpkg.com/typeface-merriweather/-/typeface-merriweather-0.0.72.tgz#2b990f5293252052d51d170c82d3892319ff0555"
@@ -11054,6 +11059,11 @@ typeface-montserrat@0.0.54:
   version "0.0.54"
   resolved "https://registry.yarnpkg.com/typeface-montserrat/-/typeface-montserrat-0.0.54.tgz#3fc338db6428d73485b75aa7bd2af8c9a55b9ab3"
   integrity sha512-Typhap0PWT299+Va0G/8ZtycHMXrH4gBWKfiW977KEBx5rXUUCa70gvqLx1fdA0WAo6bhSAQmo8uc+QFAmjPww==
+
+typeface-pridi@^0.0.72:
+  version "0.0.72"
+  resolved "https://registry.yarnpkg.com/typeface-pridi/-/typeface-pridi-0.0.72.tgz#ece95f5b7fd40dfb69e325c2ab08f22b5c47cec2"
+  integrity sha512-mSn2XmGXarPCa41Ne1FZxNK2e8MZF7F5PXydoGmwuq0IZiYbvRIllcuDY1tTn8LW2aDE+FDANLo+L51tDjCAGw==
 
 typography-breakpoint-constants@^0.16.19:
   version "0.16.19"
