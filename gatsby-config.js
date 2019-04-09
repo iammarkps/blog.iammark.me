@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `iammark`,
-    author: `iammark`,
+    author: `Possawat Suksai`,
     description: `Possawat Suksai personal blog!`,
     siteUrl: `https://blog.iammark.me`,
     social: {
