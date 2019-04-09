@@ -53,6 +53,14 @@ function SEO({ description, lang, meta, keywords, title, img }) {
           content: image,
         },
         {
+          property: `og:image:height`,
+          content: 630,
+        },
+        {
+          property: `og:image:width`,
+          content: 1200,
+        },
+        {
           property: `og:type`,
           content: `website`,
         },
