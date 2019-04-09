@@ -42,7 +42,8 @@ function Bio() {
               <a href={`https://twitter.com/${social.twitter}`}>
                 <strong>{author}</strong>
               </a>
-              <p>I'm triamudom81, TUCMC61 and JWC11!</p>
+              <br />
+              I'm triamudom81, TUCMC61 and JWC11!
             </p>
           </div>
         )
