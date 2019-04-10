@@ -2,11 +2,12 @@ import React from 'react'
 import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 
+import { Footer } from './Footer'
 import { rhythm, scale } from '../utils/typography'
 
 class Layout extends React.Component {
-  render() {
-    const { location, title, children } = this.props
+  renderHeader = () => {
+    const { location, title } = this.props
     const rootPath = `${__PATH_PREFIX__}/`
     let header
 
@@ -52,6 +53,13 @@ class Layout extends React.Component {
         </h3>
       )
     }
+
+    return header
+  }
+
+  render() {
+    const { children } = this.props
+
     return (
       <div
         style={{
@@ -67,30 +75,9 @@ class Layout extends React.Component {
             rel="stylesheet"
           />
         </Helmet>
-        <header>{header}</header>
+        <header>{this.renderHeader()}</header>
         <main>{children}</main>
-        <footer>
-          <a
-            href="https://twitter.com/1ammark08"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Twitter
-          </a>{' '}
-          &bull;{' '}
-          <a
-            href="https://github.com/iammarkps"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Github
-          </a>
-          <div style={{ float: 'right' }}>
-            <a href="/rss.xml" target="_blank" rel="noopener noreferrer">
-              RSS
-            </a>
-          </div>
-        </footer>
+        <Footer />
       </div>
     )
   }
