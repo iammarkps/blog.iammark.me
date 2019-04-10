@@ -9,6 +9,7 @@ module.exports = {
     },
   },
   plugins: [
+    { resolve: `gatsby-remark-reading-time`, options: {} },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
