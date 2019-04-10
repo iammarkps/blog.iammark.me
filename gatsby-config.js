@@ -5,7 +5,7 @@ module.exports = {
     description: `Possawat Suksai personal blog!`,
     siteUrl: `https://blog.iammark.me`,
     social: {
-      twitter: `1ammark08`,
+      twitter: `@1ammark08`,
     },
   },
   plugins: [
@@ -58,13 +58,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `iammark's blog`,
+        short_name: `iammark`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/icon.png`,
       },
     },
     `gatsby-plugin-offline`,
