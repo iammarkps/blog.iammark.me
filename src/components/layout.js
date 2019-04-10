@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import Helmet from 'react-helmet'
 
 import { rhythm, scale } from '../utils/typography'
 
@@ -60,6 +61,12 @@ class Layout extends React.Component {
           padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
         }}
       >
+        <Helmet>
+          <link
+            href="https://fonts.googleapis.com/css?family=Kanit:400,900"
+            rel="stylesheet"
+          />
+        </Helmet>
         <header>{header}</header>
         <main>{children}</main>
         <footer>
